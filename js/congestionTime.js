@@ -1,13 +1,14 @@
 /**
- * Created by Administrator on 2017/7/11 0011.
+ * Created by Administrator on 2017/7/12 0012.
  */
-var myChart = echarts.init(document.getElementById('main'));
+var myChart = echarts.init(document.getElementById('time'));
+
 
 // 指定图表的配置项和数据
 var option = {
     title : {
-        text: '流量',
-        subtext: '饱和度'
+        text: '持续拥堵时间',
+        subtext: ''
     },
     tooltip : {
         trigger: 'axis'
@@ -75,7 +76,4 @@ var option = {
         }
     ]
 };
-
-
-// 使用刚指定的配置项和数据显示图表。
 myChart.setOption(option);

@@ -1,7 +1,7 @@
 /**
  * Created by Administrator on 2017/7/12 0012.
  */
-var myChart = echarts.init(document.getElementById('trafficIndex'));
+var myChart = echarts.init(document.getElementById('index'));
 
 
 // 指定图表的配置项和数据
